@@ -6,26 +6,41 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="8" />
+        android:targetSdkVersion="11" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.segoviagroup.realstate.ActivityHome"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.segoviagroup.realstate.ActivityAgents"
+            android:label="@string/title_activity_activity_agents" >
+        </activity>
+        <activity
+            android:name="com.segoviagroup.realstate.ActivitySearch"
+            android:label="@string/title_activity_activity_search" >
+        </activity>
+        <activity
+            android:name="com.segoviagroup.realstate.MyProperties"
+            android:label="@string/title_activity_my_properties" >
+        </activity>
+        <activity
+            android:name="com.segoviagroup.realstate.ActivityProfile"
+            android:label="@string/title_activity_activity_profile" >
+        </activity>
         <activity
             android:name="com.segoviagroup.realstate.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.segoviagroup.realstate.LoginActivity"
-            android:label="@string/title_activity_login"
-            android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
     </application>
 
