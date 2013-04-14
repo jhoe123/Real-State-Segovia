@@ -1,42 +1,218 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android1="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
 
     <LinearLayout
-        android1:layout_width="fill_parent"
-        android1:layout_height="fill_parent"
-        android1:orientation="vertical" >
-        
-    <TextView
-        android1:id="@+id/textView1"
-        android1:layout_width="wrap_content"
-        android1:layout_height="64dp"
-        android1:text="Latest News"
-        android1:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp" >
 
-    <TextView
-        android1:id="@+id/textView2"
-        android1:layout_width="wrap_content"
-        android1:layout_height="70dp"
-        android1:text="Most Viewed!"
-        android1:textAppearance="?android:attr/textAppearanceLarge" />
-    
-    <TextView
-        android1:id="@+id/textView3"
-        android1:layout_width="wrap_content"
-        android1:layout_height="70dp"
-        android1:text="Whats new?"
-        android1:textAppearance="?android:attr/textAppearanceLarge" />
-    
-    <TextView
-        android1:id="@+id/textView4"
-        android1:layout_width="wrap_content"
-        android1:layout_height="match_parent"
-        android1:text="Help"
-        android1:textAppearance="?android:attr/textAppearanceLarge" />
-    
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/tvLatestNews"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="80"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:text="Latest News" />
+
+            <Button
+                android:id="@+id/btLatestNews"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="20"
+                android:gravity="center"
+                android:text="Show All"
+                android:textSize="5dp" />
+        </LinearLayout>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/tvMostViewed"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="80"
+                android:gravity="center"
+                android:layout_marginLeft="40dp"
+                android:text="Most Viewed" />
+
+            <Button
+                android:id="@+id/btMostViewed"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="20"
+                android:gravity="center"
+                android:text="Show All"
+                android:textSize="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/MV1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/MV2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/MV3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/MV4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/MV5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/tvWhatsNew"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="80"
+                android:gravity="center"
+                android:layout_marginLeft="40dp"
+                android:text="What's New?" />
+
+            <Button
+                android:id="@+id/btWhatsNew"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="20"
+                android:gravity="center"
+                android:text="Show All"
+                android:textSize="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/WN"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/WN2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/WN3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/WN4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/WN5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@drawable/ic_launcher" />
+        </LinearLayout>
+    </LinearLayout>
+	
+  
     
-</RelativeLayout>
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvHelp"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Help" />
+
+</LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
