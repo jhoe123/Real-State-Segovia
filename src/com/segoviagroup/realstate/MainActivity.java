@@ -13,7 +13,10 @@ public class MainActivity extends TabActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		InitTabs();
+		
+		
+		//InitTabs();
+		
 	}
 
 	void InitTabs()

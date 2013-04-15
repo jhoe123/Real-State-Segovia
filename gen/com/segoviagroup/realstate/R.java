@@ -34,16 +34,17 @@ public final class R {
         public static final int WN3=0x7f080018;
         public static final int WN4=0x7f080019;
         public static final int WN5=0x7f08001a;
-        public static final int action_forgot_password=0x7f080020;
-        public static final int action_settings=0x7f08001f;
+        public static final int action_forgot_password=0x7f080022;
+        public static final int action_settings=0x7f080021;
         public static final int btLatestNews=0x7f08000c;
         public static final int btMostViewed=0x7f08000e;
         public static final int btWhatsNew=0x7f080015;
         public static final int id=0x7f080007;
-        public static final int login=0x7f080009;
+        public static final int log=0x7f080009;
         public static final int login_form=0x7f080006;
         public static final int login_status=0x7f080004;
         public static final int login_status_message=0x7f080005;
+        public static final int pass=0x7f080020;
         public static final int password=0x7f080008;
         public static final int radio0=0x7f080001;
         public static final int radio1=0x7f080002;
@@ -57,6 +58,7 @@ public final class R {
         public static final int tvLatestNews=0x7f08000b;
         public static final int tvMostViewed=0x7f08000d;
         public static final int tvWhatsNew=0x7f080014;
+        public static final int username=0x7f08001f;
     }
     public static final class layout {
         public static final int activity_activity_agents=0x7f030000;
@@ -66,6 +68,7 @@ public final class R {
         public static final int activity_main=0x7f030004;
         public static final int activity_my_properties=0x7f030005;
         public static final int main=0x7f030006;
+        public static final int sample=0x7f030007;
     }
     public static final class menu {
         public static final int activity_agents=0x7f070000;
