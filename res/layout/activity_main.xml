@@ -78,35 +78,35 @@
             android:orientation="horizontal"
             android:weightSum="100" >
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/MV1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="20"
                 android:src="@drawable/ic_launcher" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/MV2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="20"
                 android:src="@drawable/ic_launcher" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/MV3"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="20"
                 android:src="@drawable/ic_launcher" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/MV4"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="20"
                 android:src="@drawable/ic_launcher" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/MV5"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -154,35 +154,35 @@
             android:orientation="horizontal"
             android:weightSum="100" >
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/WN"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="20"
                 android:src="@drawable/ic_launcher" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/WN2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="20"
                 android:src="@drawable/ic_launcher" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/WN3"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="20"
                 android:src="@drawable/ic_launcher" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/WN4"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="20"
                 android:src="@drawable/ic_launcher" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/WN5"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
